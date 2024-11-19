@@ -1,0 +1,662 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("istockphoto-1507501086-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+header .content {
+  position: relative;
+  z-index: 1;
+}
+header .content h1 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 900;
+}
+header .content h1 span {
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header .content h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h1 {
+    font-size: 72px;
+  }
+}
+header .content h2 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+@media screen and (min-width: 480px) {
+  header .content h2 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h2 {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h2 {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h2 {
+    font-size: 128px;
+  }
+}
+header .content .countdown {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header .content .countdown {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content .countdown {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content .countdown {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content .countdown {
+    font-size: 88px;
+  }
+}
+
+@media (min-width: 40em) {
+  .site-banner .usa-banner__header--expanded .usa-banner__inner {
+      margin-left: auto;
+      justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.usa-banner {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  background-color: #f0f0f0
+}
+
+@media all and (min-width: 40em) {
+  .usa-banner {
+      font-size:.87rem;
+      padding-bottom: 0
+  }
+}
+
+.usa-banner .grid-row.grid-gap-lg {
+  margin-left: -.75rem;
+  margin-right: -.75rem
+}
+
+.usa-banner .grid-row.grid-gap-lg>* {
+  padding-left: .75rem;
+  padding-right: .75rem
+}
+
+.site-banner .usa-banner__lock-image path,.usa-banner__lock-image path {
+  fill: currentColor
+}
+
+.site-banner,.site-banner .usa-accordion,.site-button-list .usa-button,.site-component-section,.site-component-usage__header--secondary,.site-component-usage__header--tertiary {
+  font-family: Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol
+}
+
+.site-banner,.site-banner .usa-accordion {
+  font-size: 1rem
+}
+
+@media all and (min-width: 40em) {
+  .site-banner {
+      font-size:.81rem;
+      padding-bottom: 0
+  }
+}
+
+.site-banner .usa-banner__content,.site-banner .usa-banner__header {
+  color: #fff
+}
+
+@media all and (min-width: 64em) {
+  .site-banner .usa-banner__content {
+      padding-left:2rem;
+      padding-right: 2rem
+  }
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__content {
+      padding-bottom:1.5rem;
+      padding-top: 1.5rem
+  }
+}
+
+.site-banner .usa-banner__content p:first-child {
+  margin: 0
+}
+
+.site-banner .usa-banner__guidance {
+  display: flex;
+  align-items: flex-start;
+  max-width: 64ex;
+  padding-top: 1rem
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__guidance {
+      padding-top:0
+  }
+}
+
+.site-banner .usa-banner__lock-image {
+  height: 1.5ex;
+  width: 1.21875ex
+}
+
+.site-banner .usa-banner__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex!important;
+  flex-wrap: wrap!important;
+  align-items: flex-start;
+  padding-right: 0
+}
+
+@media all and (min-width: 64em) {
+  .site-banner .usa-banner__inner {
+      padding-left:2rem;
+      padding-right: 2rem
+  }
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__inner {
+      align-items:center
+      justify-content:center;
+  }
+}
+
+.site-banner .usa-banner__header {
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  font-size: .75rem;
+  font-weight: 400;
+  min-height: 3rem;
+  position: relative
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__header {
+      padding-bottom:.25rem;
+      padding-top: .25rem;
+      min-height: 0
+  }
+}
+
+.site-banner .usa-banner__header-text {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: .75rem;
+  line-height: 1.2
+}
+
+.site-banner .usa-banner__header-action {
+  color: #adadad;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 2px;
+  text-decoration: underline
+}
+
+.site-banner .usa-banner__header-action::after {
+  background-image: url(../img/usa-icons-bg/expand_more--white.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1rem 1rem;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  content: "";
+  vertical-align: middle;
+  margin-left: 0
+}
+
+@supports ((-webkit-mask: url()) or (mask:url())) {
+  .site-banner .usa-banner__header-action::after {
+      background:0 0;
+      background-color: #2491ff;
+      -webkit-mask-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+      mask-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+      -webkit-mask-position: center center;
+      mask-position: center center;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 1rem 1rem;
+      mask-size: 1rem 1rem
+  }
+
+  .site-banner .usa-banner__header-action::after:hover {
+      background-color: #58b4ff
+  }
+}
+
+.site-banner .usa-banner__header-action:hover::after {
+  content: "";
+  background-color: #58b4ff
+}
+
+.site-banner .usa-banner__header-action:visited {
+  color: #adadad
+}
+
+.site-banner .usa-banner__header-action:active,.site-banner .usa-banner__header-action:hover {
+  color: #e6e6e6
+}
+
+.usa-banner__header--expanded .site-banner .usa-banner__header-action {
+  display: none
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__header-action {
+      display:none
+  }
+}
+
+.site-banner .usa-banner__header-flag {
+  float: left;
+  margin-right: .5rem;
+  width: 1rem
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__header-flag {
+      margin-right:.5rem;
+      padding-top: 0
+  }
+}
+
+.site-banner .usa-banner__header--expanded {
+  padding-right: 3.5rem
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__header--expanded {
+      background-color:transparent;
+      display: block;
+      font-size: .75rem;
+      font-weight: 400;
+      min-height: 0;
+      padding-right: 0
+  }
+}
+
+.site-banner .usa-banner__header--expanded .usa-banner__inner {
+  margin-left: 0
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__header--expanded .usa-banner__inner {
+      margin-left:auto
+  }
+}
+
+.site-banner .usa-banner__header--expanded .usa-banner__header-action {
+  display: none
+}
+
+.site-banner .usa-banner__button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 400;
+  justify-content: normal;
+  text-align: left;
+  margin: 0;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  vertical-align: baseline;
+  color: #adadad;
+  display: block;
+  font-size: .75rem;
+  height: auto;
+  line-height: 1.2;
+  padding: 0;
+  text-decoration: none;
+  width: auto
+}
+
+.site-banner .usa-banner__button:focus {
+  outline: .25rem solid #2491ff;
+  outline-offset: 0
+}
+
+.site-banner .usa-banner__button.usa-button--active,.site-banner .usa-banner__button.usa-button--disabled,.site-banner .usa-banner__button.usa-button--hover,.site-banner .usa-banner__button:active,.site-banner .usa-banner__button:disabled,.site-banner .usa-banner__button:disabled.usa-button--active,.site-banner .usa-banner__button:disabled.usa-button--hover,.site-banner .usa-banner__button:disabled.usa-focus,.site-banner .usa-banner__button:disabled:active,.site-banner .usa-banner__button:disabled:focus,.site-banner .usa-banner__button:disabled:hover,.site-banner .usa-banner__button:hover,.site-banner .usa-banner__button[aria-disabled=true],.site-banner .usa-banner__button[aria-disabled=true].usa-button--active,.site-banner .usa-banner__button[aria-disabled=true].usa-button--hover,.site-banner .usa-banner__button[aria-disabled=true].usa-focus,.site-banner .usa-banner__button[aria-disabled=true]:active,.site-banner .usa-banner__button[aria-disabled=true]:focus,.site-banner .usa-banner__button[aria-disabled=true]:hover {
+  background-color: transparent;
+  box-shadow: none;
+  text-decoration: underline
+}
+
+.site-banner .usa-banner__button.usa-button--hover,.usa-prose .site-checklist-jump-links a:visited {
+  color: #1a4480
+}
+
+.site-banner .usa-banner__button.usa-button--active {
+  color: #162e51
+}
+
+.site-banner .usa-banner__button:disabled,.site-banner .usa-banner__button:disabled:hover,.site-banner .usa-banner__button[aria-disabled=true],.site-banner .usa-banner__button[aria-disabled=true]:focus,.site-banner .usa-banner__button[aria-disabled=true]:hover {
+  color: #757575
+}
+
+@media (forced-colors:active) {
+  .site-banner .usa-banner__button:disabled,.site-banner .usa-banner__button:disabled:hover,.site-banner .usa-banner__button[aria-disabled=true],.site-banner .usa-banner__button[aria-disabled=true]:focus,.site-banner .usa-banner__button[aria-disabled=true]:hover {
+      color: GrayText
+  }
+}
+
+.site-banner .usa-banner__button:visited {
+  color: #adadad
+}
+
+.site-banner .usa-banner__button:active,.site-banner .usa-banner__button:hover {
+  color: #e6e6e6
+}
+
+@media all and (max-width: 39.99em) {
+  .site-banner .usa-banner__button {
+      width:100%
+  }
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__button {
+      color:#adadad;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      top: auto;
+      display: inline;
+      margin-left: .5rem;
+      position: relative
+  }
+
+  .site-banner .usa-banner__button::after {
+      background-image: url(../img/usa-icons-bg/expand_more--white.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 1rem 1rem;
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      content: "";
+      vertical-align: middle;
+      margin-left: 2px
+  }
+
+  @supports ((-webkit-mask: url()) or (mask:url())) {
+      .site-banner .usa-banner__button::after {
+          background:0 0;
+          background-color: #2491ff;
+          -webkit-mask-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+          mask-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+          -webkit-mask-position: center center;
+          mask-position: center center;
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-size: 1rem 1rem;
+          mask-size: 1rem 1rem
+      }
+
+      .site-banner .usa-banner__button::after:hover {
+          background-color: #58b4ff
+      }
+  }
+
+  .site-banner .usa-banner__button:hover::after {
+      content: "";
+      background-color: #58b4ff
+  }
+
+  .site-banner .usa-banner__button:visited {
+      color: #adadad
+  }
+
+  .site-banner .usa-banner__button:active,.site-banner .usa-banner__button:hover {
+      color: #e6e6e6
+  }
+
+  .site-banner .usa-banner__button:after {
+      position: absolute
+  }
+
+  .site-banner .usa-banner__button:hover {
+      text-decoration: none
+  }
+}
+
+.site-banner .usa-banner__button[aria-expanded=false],.site-banner .usa-banner__button[aria-expanded=true] {
+  background-image: none
+}
+
+@media all and (max-width: 39.99em) {
+  .site-banner .usa-banner__button[aria-expanded=true]::after {
+      background-image:url(../img/usa-icons/close.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 1.5rem 1.5rem;
+      display: inline-block;
+      height: 3rem;
+      width: 3rem;
+      content: "";
+      vertical-align: middle;
+      margin-left: 0
+  }
+
+  @supports ((-webkit-mask: url()) or (mask:url())) {
+      .site-banner .usa-banner__button[aria-expanded=true]::after {
+          background:0 0;
+          background-color: #005ea2;
+          -webkit-mask-image: url(../img/usa-icons/close.svg),linear-gradient(transparent,transparent);
+          mask-image: url(../img/usa-icons/close.svg),linear-gradient(transparent,transparent);
+          -webkit-mask-position: center center;
+          mask-position: center center;
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-size: 1.5rem 1.5rem;
+          mask-size: 1.5rem 1.5rem
+      }
+  }
+
+  .site-banner .usa-banner__button[aria-expanded=true]:before {
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      right: 0;
+      background-color: #e6e6e6;
+      content: "";
+      display: block;
+      height: 3rem;
+      width: 3rem
+  }
+
+  .site-banner .usa-banner__button[aria-expanded=true]:after {
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      right: 0
+  }
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__button[aria-expanded=true] {
+      height:auto;
+      padding: 0;
+      position: relative
+  }
+
+  .site-banner .usa-banner__button[aria-expanded=true]::after {
+      background-image: url(../img/usa-icons-bg/expand_less--white.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 1rem 1rem;
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      content: "";
+      vertical-align: middle;
+      margin-left: 2px
+  }
+
+  @supports ((-webkit-mask: url()) or (mask:url())) {
+      .site-banner .usa-banner__button[aria-expanded=true]::after {
+          background:0 0;
+          background-color: #2491ff;
+          -webkit-mask-image: url(../img/usa-icons/expand_less.svg),linear-gradient(transparent,transparent);
+          mask-image: url(../img/usa-icons/expand_less.svg),linear-gradient(transparent,transparent);
+          -webkit-mask-position: center center;
+          mask-position: center center;
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-size: 1rem 1rem;
+          mask-size: 1rem 1rem
+      }
+
+      .site-banner .usa-banner__button[aria-expanded=true]::after:hover {
+          background-color: #58b4ff
+      }
+  }
+
+  .site-banner .usa-banner__button[aria-expanded=true]:hover::after {
+      content: "";
+      background-color: #58b4ff
+  }
+
+  .site-banner .usa-banner__button[aria-expanded=true]:after {
+      position: absolute
+  }
+}
+
+.site-banner .usa-banner__button-text {
+  position: absolute;
+  left: -999em;
+  right: auto;
+  text-decoration: underline
+}
+
+@media all and (min-width: 40em) {
+  .site-banner .usa-banner__button-text {
+      position:static;
+      display: inline
+  }
+}
+
+.site-banner .usa-banner__icon {
+  width: 2.5rem
+}
+
+.site-banner .usa-js-loading .usa-banner__content {
+  position: absolute;
+  left: -999em;
+  right: auto
+}
+
+.usa-banner__header--expanded {
+  padding-right: 3.5rem
+}
+
+@media all and (min-width: 40em) {
+  .usa-banner__header--expanded {
+      background-color:transparent;
+      display: block;
+      font-size: .8rem;
+      font-weight: 400;
+      min-height: 0;
+      padding-right: 0
+  }
+}
+
+.usa-banner__header--expanded .usa-banner__inner {
+  margin-left: 0
+}
+
+@media all and (min-width: 40em) {
+  .usa-banner__header--expanded .usa-banner__inner {
+      margin-left:auto
+  }
+}
+
+.usa-banner__header--expanded .usa-banner__header-action {
+  display: none
+}
+
+div#gov-banner {
+  background-color: #252f3d;
+  
+}
+
+.usa-banner .grid-row {
+  display: flex !important
+;
+  flex-wrap: wrap !important;
+}
